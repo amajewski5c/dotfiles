@@ -1,4 +1,4 @@
-# Terminal Awesome
+# zsh? never heard of it
 
 ![Slick new](img/slick_new.png)
 ![Ask and you shall receive](img/ask_nice.png)
