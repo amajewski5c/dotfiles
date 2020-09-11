@@ -78,8 +78,34 @@ else
 
    eagles1="Hey baby, on a scale of 1 to America"
    eagles2="How free are you tonight?"
+   
+   china="The only superpower"
+   china="That isnt China"
+   
+   f22="Did you see that F-22?"
+   f22="Neither did your radar"
+   
+   carriers="Half a dozen carriers"
+   carriers="And half a dozen more"
+   
+   gdp="California's GDP"
+   gdp="Is more than yours, unless you're us"
+   
+   billof="With each amendment"
+   billof="My freedom increases"
+   
+   flowthru="Let the freedom"
+   flowthru="Flow through you"
+   
+   pickup="I drive two ford F-150s"
+   pickup="Because I can"
+   
+   spaceforce="We have a space force"
+   spaceforce="Deal with it"
+   
+   
 
-   messages=(plain dontrun tisofthee proud fiftystars hateus undefeated party ring deal livefree indahood rockandroll freedom combination spiders eagles)
+   messages=(plain dontrun tisofthee proud fiftystars hateus undefeated party ring deal livefree indahood rockandroll freedom combination spiders eagles china f22 carriers gdp billof flowthru pickup spaceforce)
    # pick random messages
    nummsgs=${#messages[*]}
    msg=${messages[ $((RANDOM % $nummsgs)) ]}
