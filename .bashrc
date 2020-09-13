@@ -33,7 +33,7 @@ export PROMPT_COMMAND='echo -en "\033[0;36m $(parse_git_branch) \033""\033[m\033
 # what box is this?
 MACHINE_ID="shared"
 # colorized PS1
-export PS1="\[\033[0;91m\]\u\[\033[0;94m\]@\[\033[0;96m\]\h\[\033[0;99m\]:\[\033[0;93m\] < $MACHINE_ID > \n \[\033[0;97m\] \w \[\033[0m\]> "
+export PS1="\[\033[0;91m\]\u\[\033[0;94m\]@\[\033[0;96m\]\h\[\033[0;99m\]:\[\033[0;92m\] < $MACHINE_ID > \n \[\033[0;93m\] \w \[\033[0m\]> "
   
 # use vim for git checkout, not nano
 export GIT_EDITOR=vim
